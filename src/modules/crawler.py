@@ -1,6 +1,7 @@
 from typing import List
 
 from src.modules.crawler_policy import CrawlerPolicy
+from atomicwrites import atomic_write
 
 
 class Crawler:
